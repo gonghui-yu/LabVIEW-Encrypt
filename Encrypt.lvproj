@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="21008000">
+<Project Type="Project" LVVersion="23008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -11,15 +11,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Api Methods" Type="Folder">
-			<Item Name="Decrypt.vi" Type="VI" URL="../Api Methods/Decrypt.vi"/>
-			<Item Name="Encrypt.vi" Type="VI" URL="../Api Methods/Encrypt.vi"/>
-			<Item Name="New.vi" Type="VI" URL="../Api Methods/New.vi"/>
-			<Item Name="Generate Key.vi" Type="VI" URL="../Api Methods/Generate Key.vi"/>
-			<Item Name="Release.vi" Type="VI" URL="../Api Methods/Release.vi"/>
-			<Item Name="Sign.vi" Type="VI" URL="../Api Methods/Sign.vi"/>
-			<Item Name="Verify.vi" Type="VI" URL="../Api Methods/Verify.vi"/>
-		</Item>
 		<Item Name="AES.lvclass" Type="LVClass" URL="../AES/AES.lvclass"/>
 		<Item Name="MD5.lvclass" Type="LVClass" URL="../MD5/MD5.lvclass"/>
 		<Item Name="RSA.lvclass" Type="LVClass" URL="../RSA/RSA.lvclass"/>
